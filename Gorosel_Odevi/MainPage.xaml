@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gorosel_Odevi.MainPage"
+              BackgroundColor="DarkCyan">
+
+    <ScrollView>
+        
+        
+        
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+
+            <Image Source="moahmmed .png" 
+                   WidthRequest="700" 
+                HeightRequest="250" 
+                HorizontalOptions="Center" />
+
+
+
+            <Label
+                Text="Mohammed Abdulaziz Omar Al-Mashdli"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Bartın üniversitesi "
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <Label
+                Text="Odev-2 "
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="15"
+                HorizontalOptions="Center" />
+
+           
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
